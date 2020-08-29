@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sat Aug 29 18:42:24 2020
 
-@author: Aravind K A
-"""
 
 import pandas as pd
 msgs = pd.read_csv('D:\ML\data\smsSpamCollection',sep='\t',names=['label','message'])
